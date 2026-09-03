@@ -1,0 +1,15 @@
+# Dépendances (régénérées automatiquement par npm install / npm ci)
+node_modules
+
+# Build (régénéré automatiquement par le workflow GitHub Actions)
+dist
+
+# Fichiers d'environnement locaux (contiennent parfois des clés/config perso)
+.env
+.env.local
+
+# Fichiers système
+.DS_Store
+
+# Logs
+npm-debug.log*
