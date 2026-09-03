@@ -1,0 +1,9 @@
+import { useEffect, useState } from "react";
+import { Menu, Phone, X } from "lucide-react";
+import Brand from "./Brand";
+const links = [["Accueil","accueil"],["Services","services"],["Réalisations","realisations"],["À propos","a-propos"],["Contact","contact"]];
+export default function Header() {
+  const [open,setOpen]=useState(false), [compact,setCompact]=useState(false);
+  useEffect(()=>{const fn=()=>setCompact(window.scrollY>30); window.addEventListener("scroll",fn); return()=>window.removeEventListener("scroll",fn)},[]);
+  return <header className={`fixed inset-x-0 top-0 z-50 border-b border-slate-200/70 bg-white/95 backdrop-blur transition-all ${compact?"py-2":"py-4"}`}><div className="site-wrap flex items-center justify-between"><Brand/><nav className="hidden items-center gap-7 lg:flex">{links.map(([l,id])=><a key={id} href={`#${id}`} className="text-sm font-semibold text-slate-600 hover:text-[#0055FF]">{l}</a>)}<a href="#devis" className="btn-primary">Demander un devis</a></nav><div className="flex items-center gap-2 lg:hidden"><a href="tel:+33600000000" aria-label="Appeler SCHMIT Couverture au téléphone" className="icon-btn"><Phone size={20}/></a><button className="icon-btn" onClick={()=>setOpen(!open)} aria-label="Ouvrir le menu">{open?<X/>:<Menu/>}</button></div></div>{open&&<nav className="site-wrap grid gap-1 border-t bg-white py-4 lg:hidden">{links.map(([l,id])=><a key={id} href={`#${id}`} onClick={()=>setOpen(false)} className="rounded-lg px-3 py-3 font-semibold text-[#0A2540]">{l}</a>)}<a href="#devis" onClick={()=>setOpen(false)} className="btn-primary mt-2 text-center">Demander un devis</a></nav>}</header>;
+}

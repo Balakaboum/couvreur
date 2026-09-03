@@ -1,0 +1,45 @@
+{
+  "name": "QuoteRequest",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "city": {
+      "type": "string"
+    },
+    "work_type": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "nouvelle",
+        "contactee",
+        "traitee"
+      ],
+      "default": "nouvelle"
+    }
+  },
+  "required": [
+    "full_name",
+    "phone",
+    "email",
+    "city",
+    "work_type",
+    "message"
+  ]
+}

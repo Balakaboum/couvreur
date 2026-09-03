@@ -1,0 +1,4 @@
+import { Home } from "lucide-react";
+export default function Brand({ light = false }) {
+  return <a href="/#accueil" className="inline-flex items-center gap-3" aria-label="SCHMIT Couverture — Accueil"><span className="grid h-11 w-11 place-items-center bg-[#0055FF] text-white [clip-path:polygon(50%_0,100%_35%,88%_100%,12%_100%,0_35%)]"><Home size={22} strokeWidth={2.3}/></span><span className={`leading-none ${light ? "text-white" : "text-[#0A2540]"}`}><strong className="block text-lg tracking-tight">SCHMIT</strong><span className="mt-1 block text-[10px] font-bold uppercase tracking-[.24em] text-[#3978F6]">Couverture</span></span></a>;
+}
