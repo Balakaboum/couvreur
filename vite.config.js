@@ -4,6 +4,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Nécessaire car le site est publié sur balakaboum.github.io/couvreur/
+  // (et pas à la racine du domaine)
+  base: '/couvreur/',
   plugins: [
     base44({
       // Support for legacy code that imports the base44 SDK with @/integrations, @/entities, etc.
