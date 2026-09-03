@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://balakaboum.github.io/couvreur/sitemap.xml
