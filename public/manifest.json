@@ -1,0 +1,17 @@
+{
+  "name": "SCHMIT Couverture",
+  "short_name": "SCHMIT",
+  "description": "Couverture, étanchéité, zinguerie et rénovation de toiture.",
+  "start_url": "/couvreur/",
+  "scope": "/couvreur/",
+  "display": "standalone",
+  "background_color": "#0A2540",
+  "theme_color": "#0A2540",
+  "icons": [
+    {
+      "src": "/logo_schmit.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
