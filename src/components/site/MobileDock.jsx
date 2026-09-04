@@ -18,7 +18,7 @@ export default function MobileDock() {
       }`}
     >
       <a
-        href="tel:+330658919511"
+        href="tel:+33658919511"
         aria-label="Appeler SCHMIT Couverture au téléphone"
         className="flex items-center justify-center gap-2 py-3 font-bold text-white"
       >
