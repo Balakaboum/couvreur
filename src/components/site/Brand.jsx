@@ -19,6 +19,7 @@ export default function Brand({ light = false }) {
           className="h-14 w-auto object-contain"
         />
       )}
+      <span className="sr-only">SCHMIT Couverture — Couvreur à Lunel, Hérault et Gard</span>
     </a>
   );
 }
