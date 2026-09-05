@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://balakaboum.github.io/couvreur/sitemap.xml
+Sitemap: https://schmit-couverture.fr/sitemap.xml
