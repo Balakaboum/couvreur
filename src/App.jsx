@@ -50,7 +50,7 @@ function App() {
   return (
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
-        <Router basename="/couvreur">
+        <Router>
           <ScrollToTop />
           <AuthenticatedApp />
         </Router>
