@@ -32,7 +32,7 @@ function GalleryTile({ src, big, onOpen }) {
     >
       <Image
         src={src}
-        alt="Chantier réalisé par SCHMIT Couverture"
+        alt="Chantier réalisé par SCHMIT Bengy Couverture"
         className="h-72 w-full object-cover transition duration-500 group-hover:scale-105"
         onError={() => setFailed(true)}
       />
@@ -67,7 +67,7 @@ export default function Gallery() {
           </button>
           <Image
             src={active}
-            alt="Chantier réalisé par SCHMIT Couverture"
+            alt="Chantier réalisé par SCHMIT Bengy Couverture"
             loading="eager"
             className="max-h-[85vh] w-auto max-w-[92vw] object-contain"
           />
