@@ -57,7 +57,7 @@ export default function QuoteForm() {
 
   return (
     <form onSubmit={submit} className="grid gap-4 sm:grid-cols-2">
-      <input type="hidden" name="_subject" value="Nouvelle demande de devis — SCHMIT Couverture" />
+      <input type="hidden" name="_subject" value="Nouvelle demande de devis — SCHMIT Bengy Couverture" />
       <input
         type="text"
         name="_gotcha"
