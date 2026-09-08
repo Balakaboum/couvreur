@@ -19,7 +19,7 @@ export default function MobileDock() {
     >
       <a
         href="tel:+33658919511"
-        aria-label="Appeler SCHMIT Couverture au téléphone"
+        aria-label="Appeler SCHMIT  Bengy Couverture au téléphone"
         className="flex items-center justify-center gap-2 py-3 font-bold text-white"
       >
         <Phone size={18} /> Appeler
