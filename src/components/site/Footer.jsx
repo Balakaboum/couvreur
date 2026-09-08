@@ -23,7 +23,7 @@ export default function Footer(){
         </div>
       </div>
       <div className="site-wrap mt-12 border-t border-white/10 pt-6 text-center text-xs text-blue-300 md:text-left">
-        © {new Date().getFullYear()} SCHMIT Couverture. Tous droits réservés.
+        © {new Date().getFullYear()} SCHMIT Bengy Couverture. Tous droits réservés.
       </div>
     </footer>
   );
