@@ -14,7 +14,7 @@ export default function Hero() {
         <Image
           src={hero}
           alt="Chantier de couverture réalisé par SCHMIT Bengy Couverture"
-          className="h-full w-full object-cover object-[68%_center] lg:object-center"
+          className="h-full w-full object-cover object-[68%_center] sm:object-cover lg:object-center"
         />
         <div className="absolute inset-0 bg-[#0A2540]/75 sm:bg-[#0A2540]/65 lg:bg-gradient-to-r lg:from-[#0A2540] lg:via-[#0A2540]/50 lg:to-transparent" />
       </div>
