@@ -8,6 +8,10 @@ const photos = [
   `${import.meta.env.BASE_URL}chantier-3.jpg`,
   `${import.meta.env.BASE_URL}chantier-4.jpg`,
   `${import.meta.env.BASE_URL}chantier-5.jpg`,
+  `${import.meta.env.BASE_URL}chantier-6.JPG`,
+  `${import.meta.env.BASE_URL}chantier-7.jpg`,
+  `${import.meta.env.BASE_URL}chantier-8.JPG`,
+  `${import.meta.env.BASE_URL}chantier-9.jpeg`,
 ];
 
 function EmptyTile({ big }) {
