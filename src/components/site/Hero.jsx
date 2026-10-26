@@ -25,18 +25,18 @@ export default function Hero() {
             Couverture • Étanchéité • Zinguerie
           </p>
 
-          <h1 className="mt-4 text-[2.55rem] font-black leading-[1.06] tracking-[-.04em] sm:mt-5 sm:text-6xl lg:text-7xl">
+          <h1 className="mt-4 text-[2.25rem] font-black leading-[1.06] tracking-[-.04em] sm:mt-4 sm:text-6xl lg:text-7xl">
             Votre toiture,
             <br />
             <span className="text-[#66A0FF]">notre savoir-faire.</span>
           </h1>
 
-          <p className="mt-5 max-w-xl text-base leading-7 text-blue-100 sm:mt-7 sm:text-lg sm:leading-8">
+          <p className="mt-4 max-w-xl text-base leading-7 text-blue-100 sm:mt-5 sm:text-lg sm:leading-8">
             SCHMIT Bengy Couverture vous accompagne pour vos travaux de
             couverture, d’étanchéité et de rénovation de toiture.
           </p>
 
-          <div className="mt-7 inline-flex max-w-full items-center gap-3 rounded-full bg-white px-4 py-3 text-sm font-bold leading-5 text-[#0A2540] shadow-lg sm:mt-6 sm:px-5 sm:text-base">
+          <div className="mt-5 inline-flex max-w-full items-center gap-3 rounded-full bg-white px-4 py-3 text-sm font-bold leading-5 text-[#0A2540] shadow-lg sm:mt-6 sm:px-5 sm:text-base">
             <ShieldCheck size={22} className="shrink-0 text-[#0055FF]" />
             <span>Entreprise assurée — Garantie décennale</span>
           </div>
